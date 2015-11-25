@@ -1,0 +1,16 @@
+p{
+	font-weight: bold;
+	color: cyan;
+	font-size: 30px;
+}
+body{
+	font-family: "menlo";
+	color: red;
+	font-size: 24px;
+}
+.wrap h1{
+	height: 200px;
+	line-height: 200px;
+	background: #0ff;
+	text-align: center;
+}
