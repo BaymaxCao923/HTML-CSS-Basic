@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>2-1 一列布局</title>
+        <style type="text/css">
+        <link rel=stylesheet href="main.css">
+        body{
+        	margin: 0;
+        	padding: 0;
+        }
+        .top{
+        	height: 100px;
+        	background:blue;
+        }
+        .head{
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+            background: #f60;
+        }
+        .main{
+        	background: #0ff;
+        	margin: 0 auto;
+        	width: 800px;
+        	height: 600px;
+        }
+        .left{
+            width: 200px;
+            height: 600px;
+            background: #f0f;
+            float: left;
+        }
+        .right{
+            width: 600px;
+            height: 600px;
+            background: #ff0;
+            float: right;
+        }
+        .right1{
+            width: 400px;
+            height: 600px;
+            background: #369;
+            float: left;
+        }
+        .right2{
+            width: 200px;
+            height: 600px;
+            background: #963;
+            float: right;
+        }
+        .foot{
+        	width: 800px;
+        	height: 100px;
+        	background: red;
+        	margin: 0 auto;
+        }
+
+        </style>
+    </head>
+    <body>
+    <div class="top">
+    	<div class="head"></div>
+    </div>
+    <div class="main">
+    	<div class="left">main.left
+        </div>
+        <div class="right">
+            <div class="right1"></div>
+            <div class="right2"></div>
+        </div>
+    </div>
+    <div class="foot">foot
+    	
+    </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

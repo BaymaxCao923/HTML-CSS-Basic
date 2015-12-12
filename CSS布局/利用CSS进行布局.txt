@@ -1,0 +1,2 @@
+利用CSS进行布局
+1.浮动(float)和绝对定位(position:absolute)可以让元素脱离文档流
