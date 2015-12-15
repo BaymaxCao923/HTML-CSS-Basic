@@ -1,3 +1,4 @@
+/*Syntax:CSS*/
 HTML/CSS基础
 HTML部分：
 <em></em>：
@@ -103,7 +104,7 @@ HTML部分：
 <input type="checkbox" id="Attribute">：
 	为input标签定义标注，label的for属性应该与input的id属性值相同
 
-
+/*Syntax:CSS*/
 CSS部分
 嵌入式样式：写在HTML文件的<style type="text/css"></style>标签内
 span{
@@ -393,10 +394,10 @@ CSS布局模型：
 字体简写：
 	body{
 	    font-style:italic;
-	    font-variant:small-caps; 
-	    font-weight:bold; 
-	    font-size:12px; 
-	    line-height:1.5em; 
+	    font-variant:small-caps;
+	    font-weight:bold;
+	    font-size:12px;
+	    line-height:1.5em;
 	    font-family:"宋体",sans-serif;
 	}
 	可以简写为：
@@ -464,13 +465,15 @@ li{
 	<div>
 	<table>
 		<tbody>
-		<tr><td><!--一行一列的单元格-->
+		<tr>
+			<td><!--一行一列的单元格-->
 		<ul>
 			<li><a href="#">1</a></li>
 			<li><a href="#">2</a></li>
 			<li><a href="#">3</a></li>
 		</ul>
-		</td></tr>
+			</td>
+		</tr>
 		</tbody>
 	</table>
 	</div>
@@ -546,12 +549,3 @@ li{
 	<div class="container">
 	    <a href="#" title="">进入课程请单击这里</a>
 	</div>
-
-
-
-
-
-
-
-
-
