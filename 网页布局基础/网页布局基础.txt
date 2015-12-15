@@ -9,6 +9,11 @@
 	5.margin 外边距
 
 清除浮动：
-	p{clear:both;}/*left/right 清除左侧或右侧的浮动，加在需要清除浮动的标签样式内*/
-	p{width: 100%; overflow: hidden;}/*width也可设置为固定值，这两个属性缺一不可*/
+	p{
+		clear:both;/*left/right 清除左侧或右侧的浮动，加在需要清除浮动的标签样式内*/
+	}
+	p{
+		width: 100%;
+		overflow:hidden;
+	}/*width也可设置为固定值，这两个属性缺一不可*/
 	不建议使用<br />来清除样式，没有实际意义

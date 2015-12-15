@@ -1,4 +1,3 @@
-/*Syntax:CSS*/
 HTML/CSS基础
 HTML部分：
 <em></em>：
@@ -21,7 +20,7 @@ HTML部分：
 &nbsp;：
 	空格
 <hr />：
-	水平横线
+	水平线
 <address></address>：
 	地址
 <code></code>：
@@ -65,7 +64,7 @@ HTML部分：
 <img src="图片地址" alt="加载失败时显示的文本" title="图片描述">：
 	src:标识图像的位置
 	alt:指定图像的描述性文本，当图像不可见时（下载不成功时），可看到该属性指定的文本
-	title:提供在图像可见时对图像的描述(鼠标滑过图片时显示的文本)
+	title:提供在图像可见时对图像的描述(鼠标停留在图片时显示的文本)
 	图像可以是jpeg png gif格式的图像文件
 <form method="传值方法" action="服务器文件"></form>：
 	method: POST/GET 加密/明文
